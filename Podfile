@@ -7,6 +7,7 @@ target 'CarGuru' do
 
   # Pods for CarGuru
   pod 'Alamofire', '~> 4.0'
+  pod 'AERecord' # Super awesome Core Data wrapper library for iOS written in Swift
 
   target 'CarGuruTests' do
     inherit! :search_paths
