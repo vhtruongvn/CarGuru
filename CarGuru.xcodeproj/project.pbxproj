@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B791700337A307CBFD2655F /* Pods_CarGuru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7C5663CC2EF31F6108F197 /* Pods_CarGuru.framework */; };
+		65C262B5192BDFABB2B24275 /* Pods_CarGuruUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB84C8E07C60DB634296B3BF /* Pods_CarGuruUITests.framework */; };
 		8FCDE9571E25E06300FA17AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE9561E25E06300FA17AB /* AppDelegate.swift */; };
 		8FCDE9591E25E06300FA17AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE9581E25E06300FA17AB /* ViewController.swift */; };
 		8FCDE95C1E25E06300FA17AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCDE95A1E25E06300FA17AB /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		8FCDE9641E25E06300FA17AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCDE9621E25E06300FA17AB /* LaunchScreen.storyboard */; };
 		8FCDE96F1E25E06300FA17AB /* CarGuruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE96E1E25E06300FA17AB /* CarGuruTests.swift */; };
 		8FCDE97A1E25E06300FA17AB /* CarGuruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE9791E25E06300FA17AB /* CarGuruUITests.swift */; };
+		BDDDD4784303C52BC36B7E3C /* Pods_CarGuruTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB0F58D5862D635C10A9D99 /* Pods_CarGuruTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024E8730CAE58D4588A1DDB0 /* Pods-CarGuruTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarGuruTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarGuruTests/Pods-CarGuruTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13DAF3B2204796A2D553B43A /* Pods-CarGuruUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarGuruUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarGuruUITests/Pods-CarGuruUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1EB3FF9945E3B182B0A1B5C3 /* Pods-CarGuruTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarGuruTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarGuruTests/Pods-CarGuruTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FB0F58D5862D635C10A9D99 /* Pods_CarGuruTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarGuruTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7C5663CC2EF31F6108F197 /* Pods_CarGuru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarGuru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCDE9531E25E06300FA17AB /* CarGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCDE9561E25E06300FA17AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FCDE9581E25E06300FA17AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		8FCDE9751E25E06300FA17AB /* CarGuruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarGuruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCDE9791E25E06300FA17AB /* CarGuruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarGuruUITests.swift; sourceTree = "<group>"; };
 		8FCDE97B1E25E06300FA17AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67DBBB4EA653910B0471435 /* Pods-CarGuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarGuru.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarGuru/Pods-CarGuru.release.xcconfig"; sourceTree = "<group>"; };
+		CE2D3C26831AF57F49312445 /* Pods-CarGuruUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarGuruUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarGuruUITests/Pods-CarGuruUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB84C8E07C60DB634296B3BF /* Pods_CarGuruUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarGuruUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C6442581090D83D755600E /* Pods-CarGuru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarGuru.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarGuru/Pods-CarGuru.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B791700337A307CBFD2655F /* Pods_CarGuru.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDDD4784303C52BC36B7E3C /* Pods_CarGuruTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C262B5192BDFABB2B24275 /* Pods_CarGuruUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180F4F437900145DB270E509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C7C5663CC2EF31F6108F197 /* Pods_CarGuru.framework */,
+				3FB0F58D5862D635C10A9D99 /* Pods_CarGuruTests.framework */,
+				DB84C8E07C60DB634296B3BF /* Pods_CarGuruUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50FD129E048886C0B0F7DC2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8C6442581090D83D755600E /* Pods-CarGuru.debug.xcconfig */,
+				A67DBBB4EA653910B0471435 /* Pods-CarGuru.release.xcconfig */,
+				024E8730CAE58D4588A1DDB0 /* Pods-CarGuruTests.debug.xcconfig */,
+				1EB3FF9945E3B182B0A1B5C3 /* Pods-CarGuruTests.release.xcconfig */,
+				CE2D3C26831AF57F49312445 /* Pods-CarGuruUITests.debug.xcconfig */,
+				13DAF3B2204796A2D553B43A /* Pods-CarGuruUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8FCDE94A1E25E06200FA17AB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				8FCDE96D1E25E06300FA17AB /* CarGuruTests */,
 				8FCDE9781E25E06300FA17AB /* CarGuruUITests */,
 				8FCDE9541E25E06300FA17AB /* Products */,
+				50FD129E048886C0B0F7DC2E /* Pods */,
+				180F4F437900145DB270E509 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FCDE97E1E25E06300FA17AB /* Build configuration list for PBXNativeTarget "CarGuru" */;
 			buildPhases = (
+				DDACDB23941568FF44034A8D /* [CP] Check Pods Manifest.lock */,
 				8FCDE94F1E25E06200FA17AB /* Sources */,
 				8FCDE9501E25E06200FA17AB /* Frameworks */,
 				8FCDE9511E25E06200FA17AB /* Resources */,
+				A0E5494FB7072C11FAD86F15 /* [CP] Embed Pods Frameworks */,
+				0066DFE59D1F0CADC025E769 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FCDE9811E25E06300FA17AB /* Build configuration list for PBXNativeTarget "CarGuruTests" */;
 			buildPhases = (
+				846DA3AF1CA9984E35ADC10E /* [CP] Check Pods Manifest.lock */,
 				8FCDE9661E25E06300FA17AB /* Sources */,
 				8FCDE9671E25E06300FA17AB /* Frameworks */,
 				8FCDE9681E25E06300FA17AB /* Resources */,
+				4F8A482DAD03928A890B76FB /* [CP] Embed Pods Frameworks */,
+				764D82C4EB3D728119DF8FAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FCDE9841E25E06300FA17AB /* Build configuration list for PBXNativeTarget "CarGuruUITests" */;
 			buildPhases = (
+				488CD02D4DEA6AB3AD0F03CA /* [CP] Check Pods Manifest.lock */,
 				8FCDE9711E25E06300FA17AB /* Sources */,
 				8FCDE9721E25E06300FA17AB /* Frameworks */,
 				8FCDE9731E25E06300FA17AB /* Resources */,
+				B3E4D2727C2F71823A3815F6 /* [CP] Embed Pods Frameworks */,
+				629A569C5B99E892FCD4B8FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0066DFE59D1F0CADC025E769 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarGuru/Pods-CarGuru-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		488CD02D4DEA6AB3AD0F03CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8A482DAD03928A890B76FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarGuruTests/Pods-CarGuruTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		629A569C5B99E892FCD4B8FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarGuruUITests/Pods-CarGuruUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		764D82C4EB3D728119DF8FAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarGuruTests/Pods-CarGuruTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		846DA3AF1CA9984E35ADC10E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0E5494FB7072C11FAD86F15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarGuru/Pods-CarGuru-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3E4D2727C2F71823A3815F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarGuruUITests/Pods-CarGuruUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDACDB23941568FF44034A8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FCDE94F1E25E06200FA17AB /* Sources */ = {
@@ -417,6 +604,7 @@
 		};
 		8FCDE97F1E25E06300FA17AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C6442581090D83D755600E /* Pods-CarGuru.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N6456L2829;
@@ -430,6 +618,7 @@
 		};
 		8FCDE9801E25E06300FA17AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67DBBB4EA653910B0471435 /* Pods-CarGuru.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N6456L2829;
@@ -443,6 +632,7 @@
 		};
 		8FCDE9821E25E06300FA17AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024E8730CAE58D4588A1DDB0 /* Pods-CarGuruTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +648,7 @@
 		};
 		8FCDE9831E25E06300FA17AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB3FF9945E3B182B0A1B5C3 /* Pods-CarGuruTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +664,7 @@
 		};
 		8FCDE9851E25E06300FA17AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2D3C26831AF57F49312445 /* Pods-CarGuruUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N6456L2829;
@@ -487,6 +679,7 @@
 		};
 		8FCDE9861E25E06300FA17AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DAF3B2204796A2D553B43A /* Pods-CarGuruUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N6456L2829;

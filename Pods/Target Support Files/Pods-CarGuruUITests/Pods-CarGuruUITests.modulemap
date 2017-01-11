@@ -1,0 +1,6 @@
+framework module Pods_CarGuruUITests {
+  umbrella header "Pods-CarGuruUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
