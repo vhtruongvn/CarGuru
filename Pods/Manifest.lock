@@ -1,15 +1,18 @@
 PODS:
   - AERecord (4.0.0)
   - Alamofire (4.2.0)
+  - PagedArray (0.5)
 
 DEPENDENCIES:
   - AERecord
   - Alamofire (~> 4.0)
+  - PagedArray (~> 0.5)
 
 SPEC CHECKSUMS:
   AERecord: 3a14a25972dc60ed7c7b3fd62f62a5fc32ef6edd
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  PagedArray: bf24601ebcc5f2afccb4d5d3637247dc26850df5
 
-PODFILE CHECKSUM: 71029f17af3aeb7379578777ad816eb64da854bb
+PODFILE CHECKSUM: 57ade4e4c9abde58da037f2974d6587c72a42a82
 
 COCOAPODS: 1.1.1

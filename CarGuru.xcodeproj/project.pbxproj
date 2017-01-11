@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		5B791700337A307CBFD2655F /* Pods_CarGuru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7C5663CC2EF31F6108F197 /* Pods_CarGuru.framework */; };
 		65C262B5192BDFABB2B24275 /* Pods_CarGuruUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB84C8E07C60DB634296B3BF /* Pods_CarGuruUITests.framework */; };
+		8F28956E1E261F63002F78E2 /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F28956A1E261F63002F78E2 /* Car+CoreDataClass.swift */; };
+		8F28956F1E261F63002F78E2 /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F28956B1E261F63002F78E2 /* Car+CoreDataProperties.swift */; };
+		8F2895701E261F63002F78E2 /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F28956C1E261F63002F78E2 /* Company+CoreDataClass.swift */; };
+		8F2895711E261F63002F78E2 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F28956D1E261F63002F78E2 /* Company+CoreDataProperties.swift */; };
 		8FCDE9571E25E06300FA17AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE9561E25E06300FA17AB /* AppDelegate.swift */; };
-		8FCDE9591E25E06300FA17AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE9581E25E06300FA17AB /* ViewController.swift */; };
+		8FCDE9591E25E06300FA17AB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE9581E25E06300FA17AB /* MainViewController.swift */; };
 		8FCDE95C1E25E06300FA17AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCDE95A1E25E06300FA17AB /* Main.storyboard */; };
 		8FCDE95F1E25E06300FA17AB /* CarGuru.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE95D1E25E06300FA17AB /* CarGuru.xcdatamodeld */; };
 		8FCDE9611E25E06300FA17AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCDE9601E25E06300FA17AB /* Assets.xcassets */; };
@@ -43,9 +47,13 @@
 		1EB3FF9945E3B182B0A1B5C3 /* Pods-CarGuruTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarGuruTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarGuruTests/Pods-CarGuruTests.release.xcconfig"; sourceTree = "<group>"; };
 		3FB0F58D5862D635C10A9D99 /* Pods_CarGuruTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarGuruTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7C5663CC2EF31F6108F197 /* Pods_CarGuru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarGuru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F28956A1E261F63002F78E2 /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8F28956B1E261F63002F78E2 /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8F28956C1E261F63002F78E2 /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8F28956D1E261F63002F78E2 /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8FCDE9531E25E06300FA17AB /* CarGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCDE9561E25E06300FA17AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FCDE9581E25E06300FA17AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FCDE9581E25E06300FA17AB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8FCDE95B1E25E06300FA17AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FCDE95E1E25E06300FA17AB /* CarGuru.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarGuru.xcdatamodel; sourceTree = "<group>"; };
 		8FCDE9601E25E06300FA17AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +122,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8F581FEA1E261C4800D04B4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F28956A1E261F63002F78E2 /* Car+CoreDataClass.swift */,
+				8F28956B1E261F63002F78E2 /* Car+CoreDataProperties.swift */,
+				8F28956C1E261F63002F78E2 /* Company+CoreDataClass.swift */,
+				8F28956D1E261F63002F78E2 /* Company+CoreDataProperties.swift */,
+				8FCDE95D1E25E06300FA17AB /* CarGuru.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8F581FEB1E261C4E00D04B4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8F581FEC1E261C5400D04B4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FCDE9581E25E06300FA17AB /* MainViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		8FCDE94A1E25E06200FA17AB = {
 			isa = PBXGroup;
 			children = (
@@ -139,13 +174,14 @@
 		8FCDE9551E25E06300FA17AB /* CarGuru */ = {
 			isa = PBXGroup;
 			children = (
+				8F581FEA1E261C4800D04B4A /* Models */,
+				8F581FEB1E261C4E00D04B4A /* Views */,
+				8F581FEC1E261C5400D04B4A /* Controllers */,
 				8FCDE9561E25E06300FA17AB /* AppDelegate.swift */,
-				8FCDE9581E25E06300FA17AB /* ViewController.swift */,
 				8FCDE95A1E25E06300FA17AB /* Main.storyboard */,
-				8FCDE9601E25E06300FA17AB /* Assets.xcassets */,
 				8FCDE9621E25E06300FA17AB /* LaunchScreen.storyboard */,
+				8FCDE9601E25E06300FA17AB /* Assets.xcassets */,
 				8FCDE9651E25E06300FA17AB /* Info.plist */,
-				8FCDE95D1E25E06300FA17AB /* CarGuru.xcdatamodeld */,
 			);
 			path = CarGuru;
 			sourceTree = "<group>";
@@ -452,9 +488,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F28956E1E261F63002F78E2 /* Car+CoreDataClass.swift in Sources */,
+				8F2895701E261F63002F78E2 /* Company+CoreDataClass.swift in Sources */,
+				8F28956F1E261F63002F78E2 /* Car+CoreDataProperties.swift in Sources */,
 				8FCDE95F1E25E06300FA17AB /* CarGuru.xcdatamodeld in Sources */,
-				8FCDE9591E25E06300FA17AB /* ViewController.swift in Sources */,
+				8FCDE9591E25E06300FA17AB /* MainViewController.swift in Sources */,
 				8FCDE9571E25E06300FA17AB /* AppDelegate.swift in Sources */,
+				8F2895711E261F63002F78E2 /* Company+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +646,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8C6442581090D83D755600E /* Pods-CarGuru.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N6456L2829;
 				INFOPLIST_FILE = CarGuru/Info.plist;
@@ -620,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A67DBBB4EA653910B0471435 /* Pods-CarGuru.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N6456L2829;
 				INFOPLIST_FILE = CarGuru/Info.plist;
@@ -711,6 +753,7 @@
 				8FCDE9801E25E06300FA17AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FCDE9811E25E06300FA17AB /* Build configuration list for PBXNativeTarget "CarGuruTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +762,7 @@
 				8FCDE9831E25E06300FA17AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FCDE9841E25E06300FA17AB /* Build configuration list for PBXNativeTarget "CarGuruUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +771,7 @@
 				8FCDE9861E25E06300FA17AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
