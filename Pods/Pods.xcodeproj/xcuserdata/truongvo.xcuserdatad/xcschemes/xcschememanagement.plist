@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CoreStore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CarGuru.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,6 +32,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>35E13B55A24FBA10C734608EC528C39C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
@@ -37,12 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B18A621079D2BE0CC4CF6FCB16AEB433</key>
+		<key>AD01BAC8F5256CBDC99D6D4A275D47DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C255232C1D2FAEACB84F2008C7EEB1EA</key>
+		<key>B18A621079D2BE0CC4CF6FCB16AEB433</key>
 		<dict>
 			<key>primary</key>
 			<true/>

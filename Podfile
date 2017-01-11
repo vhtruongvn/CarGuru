@@ -7,6 +7,7 @@ target 'CarGuru' do
 
   # Pods for CarGuru
   pod 'Alamofire', '~> 4.0'
+  pod 'CoreStore' #Core Data framework
 
   target 'CarGuruTests' do
     inherit! :search_paths
