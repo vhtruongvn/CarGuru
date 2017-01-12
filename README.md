@@ -3,10 +3,10 @@
 A sample iOS app written in Swift 3
 
 Home screen - Manufacturers List
-![alt tag](https://cloud.githubusercontent.com/assets/144786/21882223/1f200fa0-d8dc-11e6-99f2-fe235ad1107c.jpg)
+![alt tag](https://cloud.githubusercontent.com/assets/144786/21882223/1f200fa0-d8dc-11e6-99f2-fe235ad1107c.jpg = 320x)
 
 Model screen - Cars List
-![alt tag](https://cloud.githubusercontent.com/assets/144786/21882281/58eebdb2-d8dc-11e6-9410-59dd272c344a.jpg)
+![alt tag](https://cloud.githubusercontent.com/assets/144786/21882281/58eebdb2-d8dc-11e6-9410-59dd272c344a.jpg = 320x)
 
 # 3rd Party Libs
 * Alamofire - elegant networking in Swift.
