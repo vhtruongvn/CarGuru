@@ -18,6 +18,6 @@ extension Car {
 
     @NSManaged public var id: String?
     @NSManaged public var name: String?
-    @NSManaged public var belongTo: Company?
+    @NSManaged public var belongTo: Manufacturer?
 
 }

@@ -1,5 +1,5 @@
 //
-//  Company+CoreDataClass.swift
+//  Manufacturer+CoreDataClass.swift
 //  CarGuru
 //
 //  Created by Truong Vo on 11/1/17.
@@ -10,6 +10,6 @@ import Foundation
 import CoreData
 
 
-public class Company: NSManagedObject {
+public class Manufacturer: NSManagedObject {
 
 }

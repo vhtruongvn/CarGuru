@@ -1,5 +1,5 @@
 //
-//  Company+CoreDataProperties.swift
+//  Manufacturer+CoreDataProperties.swift
 //  CarGuru
 //
 //  Created by Truong Vo on 11/1/17.
@@ -10,10 +10,10 @@ import Foundation
 import CoreData
 
 
-extension Company {
+extension Manufacturer {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Company> {
-        return NSFetchRequest<Company>(entityName: "Company");
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Manufacturer> {
+        return NSFetchRequest<Manufacturer>(entityName: "Manufacturer");
     }
 
     @NSManaged public var id: String?
@@ -23,7 +23,7 @@ extension Company {
 }
 
 // MARK: Generated accessors for hasMany
-extension Company {
+extension Manufacturer {
 
     @objc(addHasManyObject:)
     @NSManaged public func addToHasMany(_ value: Car)

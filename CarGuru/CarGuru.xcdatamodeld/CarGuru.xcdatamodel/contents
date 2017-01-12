@@ -3,15 +3,15 @@
     <entity name="Car" representedClassName=".Car" syncable="YES">
         <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="belongTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Company" inverseName="hasMany" inverseEntity="Company" syncable="YES"/>
+        <relationship name="belongTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Manufacturer" inverseName="hasMany" inverseEntity="Manufacturer" syncable="YES"/>
     </entity>
-    <entity name="Company" representedClassName=".Company" syncable="YES">
+    <entity name="Manufacturer" representedClassName=".Manufacturer" syncable="YES">
         <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="hasMany" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Car" inverseName="belongTo" inverseEntity="Car" syncable="YES"/>
     </entity>
     <elements>
         <element name="Car" positionX="-54" positionY="-9" width="128" height="90"/>
-        <element name="Company" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Manufacturer" positionX="-63" positionY="-18" width="128" height="90"/>
     </elements>
 </model>
