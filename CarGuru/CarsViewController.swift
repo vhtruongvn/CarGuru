@@ -102,6 +102,7 @@ class CarsViewController: UIViewController {
                     var pageData: [Car] = []
                     for (key, value) in jsonData! {
                         let car = Car.firstOrCreate(with: ["id": key, "name" : value])
+                        car.manufacturer = self.selectedManufacturer
                         AERecord.saveAndWait()
                         pageData.insert(car, at: 0)
                     }

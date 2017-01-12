@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1212" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Car" representedClassName=".Car" syncable="YES">
         <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="belongTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Manufacturer" inverseName="hasMany" inverseEntity="Manufacturer" syncable="YES"/>
+        <relationship name="manufacturer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Manufacturer" inverseName="cars" inverseEntity="Manufacturer" syncable="YES"/>
     </entity>
     <entity name="Manufacturer" representedClassName=".Manufacturer" syncable="YES">
         <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="hasMany" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Car" inverseName="belongTo" inverseEntity="Car" syncable="YES"/>
+        <relationship name="cars" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Car" inverseName="manufacturer" inverseEntity="Car" syncable="YES"/>
     </entity>
     <elements>
         <element name="Car" positionX="-54" positionY="-9" width="128" height="90"/>

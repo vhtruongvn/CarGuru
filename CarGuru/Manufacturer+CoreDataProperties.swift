@@ -18,23 +18,23 @@ extension Manufacturer {
 
     @NSManaged public var id: String?
     @NSManaged public var name: String?
-    @NSManaged public var hasMany: NSSet?
+    @NSManaged public var cars: NSSet?
 
 }
 
-// MARK: Generated accessors for hasMany
+// MARK: Generated accessors for cars
 extension Manufacturer {
 
-    @objc(addHasManyObject:)
-    @NSManaged public func addToHasMany(_ value: Car)
+    @objc(addCarsObject:)
+    @NSManaged public func addToCars(_ value: Car)
 
-    @objc(removeHasManyObject:)
-    @NSManaged public func removeFromHasMany(_ value: Car)
+    @objc(removeCarsObject:)
+    @NSManaged public func removeFromCars(_ value: Car)
 
-    @objc(addHasMany:)
-    @NSManaged public func addToHasMany(_ values: NSSet)
+    @objc(addCars:)
+    @NSManaged public func addToCars(_ values: NSSet)
 
-    @objc(removeHasMany:)
-    @NSManaged public func removeFromHasMany(_ values: NSSet)
+    @objc(removeCars:)
+    @NSManaged public func removeFromCars(_ values: NSSet)
 
 }
